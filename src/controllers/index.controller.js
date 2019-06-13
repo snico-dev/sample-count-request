@@ -1,5 +1,5 @@
 const repository = require('../repositories/giphy.repository'); 
-const service = require('../services/cont.service');
+const service = require('../services/count.service');
 
 exports.get = async (req, res) => {
   service.start();
